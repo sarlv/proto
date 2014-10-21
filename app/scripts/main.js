@@ -1,42 +1,3 @@
-/*
-
-There are a list of technologies 
-for front end developers
-
-CSS
-- Bootstrap
-- Stylus
-- Less
-- Sass
-JS
-- javascript (core)
-- ecma6
-- js patterns
-JS frameworks
-- Backbone
-- Underscore
-- Angular
-JS templator
-- mustash
-TESTS
-- karma
-- protractor
-NODE
-- node.js (core)
-NODE framworks
-- express
-DATABASES
-- mongodb
-DEVELOPING TOOLS
-- Grunt
-- Bower
-- Yeoman
-VERSION CONTROL
-- git
-- svn
-- mercurial
-*/
-
 window.App = {
     Model: {},
     Collections: {},
@@ -93,7 +54,7 @@ App.View.Person = Backbone.View.extend({
     }
 });
 
-
+// there should be ajax request
 var personCollection = new App.Collections.Person([
     {
         name: 'James Bond',
