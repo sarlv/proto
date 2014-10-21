@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>backbone app</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <ul id="list">
+        <script id="personTemplate" type="text/template">
+            <strong><%= name %></strong> (<%= age %>): <%= occupation %> 
+        </script>
+    </ul>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
